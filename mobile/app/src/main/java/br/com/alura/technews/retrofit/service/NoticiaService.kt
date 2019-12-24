@@ -17,5 +17,4 @@ interface NoticiaService {
 
     @DELETE("noticias/{id}")
     fun remove(@Path("id") id: Long): Call<Void>
-
 }
